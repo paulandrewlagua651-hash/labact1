@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.navbarScroll {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.4s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #2c3e50 !important;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #4b6584 !important;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important;
+}
+
+.Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  text-align: center;
+}
+
+.hero_title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.hero_desc {
+  font-size: 1.25rem;
+  color: #576574;
+}
+#about {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+#about h1, #services h1, #portfolio h1, #contact h1 {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.imageAboutPage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#about ul {
+  padding-left: 0;
+}
+
+#about ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: #4b6584;
+}
+
+#services {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .card-title {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.service-card .card-text {
+  color: #576574;
+}
+
+#portfolio {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.portfolio-box {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #2c3e50;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-box:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-box h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+#contact {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+#contact form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+#contact .form-label {
+  font-weight: 600;
+  color: #2c3e50;
+}
